@@ -39,7 +39,4 @@ images:
    image: prashanth7993/vendor-service:latest
    port: 8080
 
-service:
-  type: NodePort
-  port: 80
-  targetPort: 8080
+serviceType: NodePort
